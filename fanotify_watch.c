@@ -35,6 +35,7 @@
 #include <sys/fanotify.h>
 #include <sys/time.h>
 #include <poll.h>
+#include <sys/sysmacros.h>
 
 /* command line options */
 static int option_current_mount = 0;
